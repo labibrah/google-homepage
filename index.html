@@ -1,0 +1,200 @@
+<!DOCTYPE html>
+<html>
+
+<head>
+    <link href="https://fonts.googleapis.com/icon?family=Material+Icons" rel="stylesheet">
+    <title>Google</title>
+    <style>
+        .centerImage {
+            text-align: center;
+            display: block;
+        }
+
+        body {
+            font-family: Arial, Helvetica, sans-serif;
+            font-size: 10%;
+        }
+
+        h1 {
+            color: blue;
+        }
+
+
+        /* Add a black background color to the top navigation */
+        .topnav {
+            background-color: rgb(255, 255, 255);
+            overflow: hidden;
+        }
+
+        /* Style the links inside the navigation bar */
+        .topnav a {
+            float: left;
+            color: #3f3a3a;
+            text-align: center;
+            padding: 14px 16px;
+            text-decoration: none;
+            font-size: 14px;
+        }
+
+        /* Change the color of links on hover */
+        .topnav a:hover {
+            background-color: #ddd;
+            color: black;
+        }
+
+        /* Add a color to the active/current link */
+        .topnav a.active {
+            background-color: #4285f4;
+            color: white;
+            transform: scale(0.85, 0.85);
+
+        }
+
+        .leftNav {
+            margin-left: 79%;
+        }
+
+        .material-icons1 {
+            margin-left: 10%;
+
+            margin-inline-start: 1px;
+        }
+
+        .logo {
+            padding-top: 14%;
+            padding-bottom: 1%;
+        }
+
+        .inputWithIcon input[type=text] {
+            text-align: center;
+        }
+
+        .inputWithIcon i {
+            position: fixed;
+            left: 450px;
+            top: 330px;
+        }
+
+        .searchBar {
+
+            width: 560px;
+            height: 40px;
+            border-radius: 25px;
+            border: 2px solid #e6e7e7d8;
+            margin: 0 auto;
+            display: block;
+        }
+
+        .searchButtons {
+            position: absolute;
+            left: 550px;
+            outline: none;
+            transform: scale(0.9, 0.9);
+
+        }
+
+        .micIcon i {
+            position: relative;
+            left: 960px;
+            top: -36px;
+            right: 100px;
+        }
+
+        .button {
+            background-color: #f2f2f2;
+            outline: none;
+            border-radius: 2%;
+            border-color: #f2f2f2;
+            padding: 15px 32px;
+            text-align: center;
+
+            display: inline-block;
+            font-size: 16px;
+            margin: 4px 2px;
+            cursor: pointer;
+        }
+
+
+.button:hover {box-shadow: 1px 2px #888888;}
+
+.button:active {
+  background-color: #3e8e41;
+  box-shadow: 0 5px #666;
+  transform: translateY(4px);
+}
+
+
+        .footer {
+            position: absolute;
+            width: 100%;
+            bottom: 10px;
+            /* border: 3px solid #eef0e9; */
+            background-color: rgb(255, 255, 255);
+
+        }
+
+        .leftFoot {
+            margin-left: 83%;
+        }
+    </style>
+
+</head>
+
+<body>
+    <div class="topnav">
+
+        <a href="#about">About</a>
+        <a href="#store">Store</a>
+        <div class="leftNav">
+            <a href="#gmail">Gmail</a>
+            <a href="#images">Images</a><a><span class="material-icons">apps</span></a>
+
+            <a class="active" href="#home">Sign In</a>
+        </div>
+
+
+        <div class="logo">
+
+            <p style="text-align:center;">
+                <img src="https://www.google.com/images/branding/googlelogo/1x/googlelogo_color_272x92dp.png"
+                    alt="Google logo">
+            </p>
+        </div>
+        <div class="inputWithIcon">
+
+
+
+            <i class="material-icons">search</i>
+            <input class="searchBar" type="text" id="search" name="search" style="text-align:center;">
+            <div class="micIcon"><i class="material-icons">
+                    mic
+                </i>
+
+
+
+
+            </div>
+            <br>
+            <div class="searchButtons">
+                <button class="button">Google Search</button>
+                <button class="button">I'm feeling lucky</button>
+            </div>
+            <br>
+            <footer>
+                <div class="footer">
+                    <a href="#advertising">Advertising</a>
+                    <a href="#businesses">Businesses</a>
+                    <a href="#howsearch">How Search works</a>
+                    <div class="leftFoot">
+
+                        <a href="#gmail">Privacy</a>
+                        <a href="#terms">Terms</a>
+                        <a href="#settings">Settings</a>
+
+                    </div>
+
+                </div>
+            </footer>
+</body>
+
+</html>
